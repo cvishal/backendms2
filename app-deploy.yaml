@@ -54,6 +54,7 @@ metadata:
   namespace: kabanero
 spec:
   applicationImage: image-registry.openshift-image-registry.svc:5000/kabanero/quote-backend:v1
+  pullPolicy: Always
   createKnativeService: false
   expose: true
   livenessProbe:
